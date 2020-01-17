@@ -1,0 +1,138 @@
+.NET Development
+3D Printing
+Accounts
+Acting
+Aerospace Engineering
+Agriculture & Food Engineering
+Analytics
+Android App Development
+Angular.js Development
+Animation
+Architecture
+Artificial Intelligence (AI)
+ASP.NET Development
+Automobile Engineering
+Backend Development
+Big Data
+Bioinformatics
+Biology
+Biotechnology Engineering
+Blogging
+Brand Management
+CAD Design
+Campus Ambassador
+Chartered Accountancy (CA)
+Chemical Engineering
+Chemistry
+Cinematography
+Civil Engineering
+Client Servicing
+Cloud Computing
+Commerce
+Company Secretary (CS)
+Computer Science
+Computer Vision
+Content Writing
+Copywriting
+Creative Design
+Creative Writing
+Customer Service
+Cyber Security
+Data Entry
+Data Science
+Database Building
+Design
+Digital Marketing
+Editorial
+Electrical Engineering
+Electronics Engineering
+Embedded Systems
+Energy Science & Engineering
+Engineering
+Engineering Design
+Engineering Physics
+Environmental Sciences
+Event Management
+Facebook Marketing
+Fashion Design
+Film Making
+Finance
+Front End Development
+Full Stack Development
+Fundraising
+Game Development
+General Management
+Government
+Graphic Design
+Hospitality
+Hotel Management
+Human Resources (HR)
+Humanities
+Image Processing
+Industrial & Production Engineering
+Industrial Design
+Information Technology
+Instrumentation & Control Engineering
+Interior Design
+Internet of Things (IoT)
+iOS App Development
+Java Development
+Javascript Development
+Journalism
+Law
+Legal Research
+Machine Learning
+Magento Development
+Manufacturing Engineering
+Market/Business Research
+Marketing
+Material Science
+Mathematics
+Mathematics & Computing
+MBA
+Mechanical Engineering
+Mechatronics
+Media
+Medicine
+Merchandise Design
+Metallurgical Engineering
+Mobile App Development
+Motion Graphics
+Naval Architecture and Ocean Engineeering
+Network Engineering
+NGO
+Node.js Development
+Operations
+Pharmaceutical
+Photography
+PHP Development
+Physics
+Political/Economics/Policy Research
+Public Relations (PR)
+Product Management
+Programming
+Psychology
+Python/Django Development
+Recruitment
+Robotics
+Ruby on Rails
+Sales
+Science
+Search Engine Optimization (SEO)
+Social Media Marketing
+Social Work
+Software Development
+Software Testing
+Statistics
+Strategy
+Supply Chain Management (SCM)
+Talent Acquisition
+Teaching
+Telecalling
+Travel & Tourism
+UI/UX Design
+Video Making/Editing
+Videography
+Volunteering
+Web Development
+Wordpress Development
