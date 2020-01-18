@@ -34,6 +34,7 @@ for i in range(tags.shape[0]):
     print('\n' + tag)
     j = 1
     while True:
+        t1 = time.time
         soup = BeautifulSoup(requests.get(link).content, 'lxml')
         response = get_page_data(soup, data, tag)
         if response[0]:
@@ -45,11 +46,12 @@ for i in range(tags.shape[0]):
             print('reached end of pages', j)
             break
         if j > 10:
-            time.sleep(1)
+            time.sleep(0.3)
     time.sleep(1)
     data.to_csv(f'data/{tag}.csv')
-    print('Elapsed time', (time.time() - t0)/60, 'mins')
+    print('scrape time', round((time.time() - t1)/60, 2), 'mins')
+    print('Elapsed time', round((time.time() - t0)/60, 2), 'mins')
 elapsed_time = time.time() - t0
-print(elapsed_time)
+print('total time : ', elapsed_time)
 # %%
 # %%
