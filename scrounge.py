@@ -34,7 +34,7 @@ for i in range(tags.shape[0]):
     print('\n' + tag)
     j = 1
     while True:
-        t1 = time.time
+        t1 = time.time()
         soup = BeautifulSoup(requests.get(link).content, 'lxml')
         response = get_page_data(soup, data, tag)
         if response[0]:
