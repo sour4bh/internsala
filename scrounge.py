@@ -25,6 +25,7 @@ def get_page_data(soup, data, tag):
         data = data.append(pd.DataFrame(meta, index=[0]), ignore_index=True)
     return True, data
 #%%
+t0 = time.time()
 page_link = lambda tag_link, j: tag_link + '/page-' + str(j)
 for i in range(tags.shape[0]):
     data = pd.read_csv('data.csv')
@@ -47,5 +48,8 @@ for i in range(tags.shape[0]):
             time.sleep(1)
     time.sleep(1)
     data.to_csv(f'data/{tag}.csv')
+    print('Elapsed time', (time.time() - t0)/60, 'mins')
+elapsed_time = time.time() - t0
+print(elapsed_time)
 # %%
 # %%
