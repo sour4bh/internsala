@@ -15,7 +15,6 @@ options.add_argument('--disable-extensions')
 options.headless = True
 driver = webdriver.Chrome(driver_path, options=options)
 # %%
-
 tags = pd.read_csv('tags.csv')
 data = pd.read_csv('data.csv')
 # %%
@@ -45,9 +44,12 @@ for i in range(tags.shape[0]):
     link = tag_link = tags.iloc[i]['link']
     tag = tags.iloc[i]['tag']
     print('\n' + tag)
-    while j < 20:
+    while True:
         driver.get(link)
-        response = get_page_data(data, tag)
+        try:
+            response = get_page_data(data, tag)
+        except NoSuchElementException:
+            continue
         if response[0]:
             link = page_link(tag_link, j)
             data = response[1]
